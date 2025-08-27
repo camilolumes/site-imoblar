@@ -1,0 +1,1024 @@
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para sua jornada imobiliária</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Compra de Imóveis</h3>
+                    <p>Encontre o imóvel dos seus sonhos com nossa ampla carteira de opções e assessoria especializada.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Aluguel</h3>
+                    <p>Alugue com segurança e tranquilidade. Oferecemos contratos transparentes e suporte completo.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Avaliação de Imóveis</h3>
+                    <p>Determine o valor justo do seu imóvel com nossa avaliação profissional e detalhada.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Anuncie seu Imóvel</h3>
+                    <p>Venda ou alugue seu imóvel mais rápido com nossa estratégia de marketing imobiliário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>O que nossos clientes dizem</h2>
+                <p>Histórias reais de quem confiou na Imoblar</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p>"Encontrei meu apartamento dos son<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImobLar - Seu Lar, Nossa Missão</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        /* Reset e estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: var(--dark-grey);
+            line-height: 1.6;
+            background-color: var(--white-color);
+        }
+        
+        /* Variáveis de cores */
+        :root {
+            --primary-color: #2ecc71; /* Verde esmeralda */
+            --secondary-color: #3498db; /* Azul royal vibrante */
+            --accent-color: #f39c12; /* Laranja vibrante */
+            --light-color: #f2f2f2; /* Cinza claro */
+            --white-color: #ffffff; /* Branco puro */
+            --grey-color: #7f8c8d; /* Cinza */
+            --dark-grey: #34495e; /* Cinza escuro */
+            --turquoise-color: #1abc9c; /* Turquesa claro */
+            --yellow-accent: #f1c40f; /* Amarelo limão */
+        }
+        
+        /* Utilitários */
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            border-radius: 5px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--accent-color), #e67e22);
+            color: white;
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+            transform: translateY(0);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-primary:hover {
+            background: linear-gradient(135deg, #e67e22, var(--accent-color));
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(243, 156, 18, 0.4);
+        }
+        
+        .btn-outline {
+            background-color: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        .btn-outline:hover {
+            background: linear-gradient(135deg, var(--primary-color), var(--turquoise-color));
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(46, 204, 113, 0.3);
+        }
+        
+        /* Header e navegação */
+        header {
+            background: linear-gradient(135deg, var(--white-color), #fafafa);
+            box-shadow: 0 4px 20px rgba(52, 73, 94, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 3px solid var(--primary-color);
+        }
+        
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .logo span {
+            color: var(--accent-color);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+        }
+        
+        nav ul li a {
+            color: var(--dark-grey);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        nav ul li a:hover, 
+        nav ul li a.active {
+            color: var(--primary-color);
+            position: relative;
+        }
+        
+        nav ul li a:hover::after,
+        nav ul li a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--turquoise-color));
+            border-radius: 2px;
+        }
+        
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            font-size: 24px;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+        
+        /* Hero Banner */
+        .hero {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.9), rgba(52, 152, 219, 0.8)), url('/api/placeholder/1200/600');
+            background-size: cover;
+            background-position: center;
+            height: 650px;
+            display: flex;
+            align-items: center;
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 30% 50%, rgba(26, 188, 156, 0.3), transparent 50%);
+        }
+        
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 20px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            background: linear-gradient(135deg, #ffffff, #ecf0f1);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            font-weight: 300;
+        }
+        
+        /* Formulário de busca */
+        .search-form {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.98));
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 35px;
+            margin-top: 30px;
+            box-shadow: 0 15px 35px rgba(52, 73, 94, 0.15), 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid rgba(46, 204, 113, 0.2);
+        }
+        
+        .search-form h3 {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 25px;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+        
+        .form-row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0 -10px;
+        }
+        
+        .form-group {
+            flex: 1 0 200px;
+            padding: 0 10px;
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            color: var(--dark-grey);
+            font-weight: 500;
+            font-size: 14px;
+        }
+        
+        .form-group select,
+        .form-group input {
+            width: 100%;
+            padding: 15px 18px;
+            border: 2px solid #ecf0f1;
+            border-radius: 10px;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background-color: white;
+        }
+        
+        .form-group select:focus,
+        .form-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.1);
+            transform: translateY(-1px);
+        }
+        
+        .search-btn {
+            width: 100%;
+            padding: 16px;
+            margin-top: 15px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 12px;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+        /* Seção de destaques */
+        .featured {
+            padding: 90px 0;
+            background: linear-gradient(135deg, #f8f9fa, #ffffff);
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2.8rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            font-weight: 700;
+        }
+        
+        .section-title p {
+            color: var(--grey-color);
+            font-size: 1.1rem;
+        }
+        
+        .properties-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .property-card {
+            background: linear-gradient(135deg, #ffffff, #fafafa);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(52, 73, 94, 0.1);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(46, 204, 113, 0.1);
+        }
+        
+        .property-card:hover {
+            transform: translateY(-8px) scale(1.02);
+            box-shadow: 0 20px 40px rgba(52, 73, 94, 0.15), 0 10px 20px rgba(46, 204, 113, 0.1);
+        }
+        
+        .property-img {
+            height: 200px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        
+        .property-badge {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        
+        .for-sale {
+            background: linear-gradient(135deg, var(--accent-color), #e67e22);
+            color: white;
+            box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
+        }
+        
+        .for-rent {
+            background: linear-gradient(135deg, var(--secondary-color), var(--turquoise-color));
+            color: white;
+            box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+        }
+        
+        .property-info {
+            padding: 20px;
+        }
+        
+        .property-price {
+            font-size: 1.6rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary-color), var(--turquoise-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+        }
+        
+        .property-address {
+            color: var(--grey-color);
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+        
+        .property-details {
+            display: flex;
+            justify-content: space-between;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+            font-size: 0.9rem;
+        }
+        
+        .property-details span {
+            display: flex;
+            align-items: center;
+        }
+        
+        .property-details i {
+            margin-right: 5px;
+            color: var(--grey-color);
+        }
+        
+        .property-link {
+            margin-top: 15px;
+            text-align: center;
+        }
+        
+        /* Serviços */
+        .services {
+            padding: 90px 0;
+            background: linear-gradient(135deg, #ffffff, #f8f9fa);
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            text-align: center;
+            padding: 40px 25px;
+            background: linear-gradient(135deg, #ffffff, #fafafa);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(52, 73, 94, 0.08);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(46, 204, 113, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .service-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--turquoise-color), var(--secondary-color));
+            transition: left 0.4s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 40px rgba(52, 73, 94, 0.12);
+        }
+        
+        .service-card:hover::before {
+            left: 0;
+        }
+        
+        .service-icon {
+            background: linear-gradient(135deg, rgba(46, 204, 113, 0.1), rgba(52, 152, 219, 0.1));
+            width: 90px;
+            height: 90px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            background: linear-gradient(135deg, var(--primary-color), var(--turquoise-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 36px;
+            border: 3px solid rgba(46, 204, 113, 0.2);
+            position: relative;
+        }
+        
+        .service-icon::before {
+            content: '';
+            position: absolute;
+            top: -3px;
+            left: -3px;
+            right: -3px;
+            bottom: -3px;
+            background: linear-gradient(135deg, var(--primary-color), var(--turquoise-color));
+            border-radius: 50%;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+        
+        .service-card:hover .service-icon::before {
+            opacity: 0.1;
+        }
+        
+        .service-card h3 {
+            margin-bottom: 18px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 600;
+        }
+        
+        .service-card p {
+            color: var(--grey-color);
+            font-size: 0.9rem;
+        }
+        
+        /* CTA Section */
+        .cta {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 90px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .cta::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(circle at 70% 30%, rgba(26, 188, 156, 0.3), transparent 50%);
+        }
+        
+        .cta h2,
+        .cta p {
+            position: relative;
+            z-index: 2;
+        }
+        
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .cta p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--dark-grey);
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h3 {
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+        
+        .footer-col p, .footer-col li {
+            margin-bottom: 10px;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li a {
+            color: white;
+            text-decoration: none;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-col ul li a:hover {
+            opacity: 1;
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .social-links a {
+            color: white;
+            background-color: rgba(255, 255, 255, 0.1);
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: background-color 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--accent-color);
+        }
+        
+        .footer-bottom {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+        
+        /* Media Queries */
+        @media (max-width: 991px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .form-row {
+                flex-direction: column;
+            }
+            
+            .form-group {
+                margin-bottom: 10px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .mobile-menu-btn {
+                display: block;
+            }
+            
+            nav ul {
+                position: fixed;
+                left: -100%;
+                top: 70px;
+                flex-direction: column;
+                background-color: white;
+                width: 100%;
+                height: calc(100vh - 70px);
+                padding: 20px;
+                transition: left 0.3s ease;
+            }
+            
+            nav ul.active {
+                left: 0;
+            }
+            
+            nav ul li {
+                margin: 15px 0;
+            }
+            
+            .hero {
+                height: 500px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .hero p {
+                font-size: 1rem;
+            }
+        }
+        
+        @media (max-width: 576px) {
+            .section-title h2 {
+                font-size: 2rem;
+            }
+            
+            .hero {
+                height: 450px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <a href="index.html" class="logo">Imob<span>Lar</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav>
+                <ul id="mainMenu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="imoveis.html">Imóveis</a></li>
+                    <li><a href="sobre.html">Sobre Nós</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="#" class="btn btn-outline">Anuncie seu Imóvel</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <div class="container hero-content">
+            <h1>Encontre seu imóvel ideal</h1>
+            <p>Milhares de opções para compra e aluguel à sua escolha</p>
+            <a href="imoveis.html" class="btn btn-primary">Explorar Imóveis</a>
+            
+            <!-- Search Form -->
+            <div class="search-form">
+                <h3>Busque seu próximo lar</h3>
+                <form action="imoveis.html" method="get">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="property-type">Tipo de Imóvel</label>
+                            <select id="property-type" name="type">
+                                <option value="">Todos os tipos</option>
+                                <option value="apartamento">Apartamento</option>
+                                <option value="casa">Casa</option>
+                                <option value="comercial">Comercial</option>
+                                <option value="terreno">Terreno</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="location">Localização</label>
+                            <input type="text" id="location" name="location" placeholder="Cidade, bairro ou região">
+                        </div>
+                        <div class="form-group">
+                            <label for="status">Status</label>
+                            <select id="status" name="status">
+                                <option value="">Compra ou Aluguel</option>
+                                <option value="venda">Comprar</option>
+                                <option value="aluguel">Alugar</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="price">Faixa de Preço</label>
+                            <select id="price" name="price">
+                                <option value="">Qualquer preço</option>
+                                <option value="0-1000">Até R$ 1.000</option>
+                                <option value="1000-2000">R$ 1.000 - R$ 2.000</option>
+                                <option value="2000-3000">R$ 2.000 - R$ 3.000</option>
+                                <option value="3000-5000">R$ 3.000 - R$ 5.000</option>
+                                <option value="5000+">Acima de R$ 5.000</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary search-btn">
+                        <i class="fas fa-search"></i> Buscar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Properties -->
+    <section class="featured">
+        <div class="container">
+            <div class="section-title">
+                <h2>Imóveis em Destaque</h2>
+                <p>Confira nossas melhores opções disponíveis no momento</p>
+            </div>
+            
+            <div class="properties-grid">
+                <!-- Property Card 1 -->
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('/api/placeholder/400/300');">
+                        <div class="property-badge for-sale">Venda</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">R$ 850.000</div>
+                        <h3>Apartamento Moderno</h3>
+                        <div class="property-address">
+                            <i class="fas fa-map-marker-alt"></i> Jardins, São Paulo
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 3 Quartos</span>
+                            <span><i class="fas fa-bath"></i> 2 Banheiros</span>
+                            <span><i class="fas fa-ruler-combined"></i> 120 m²</span>
+                        </div>
+                        <div class="property-link">
+                            <a href="imovel.html?id=1" class="btn btn-outline">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Property Card 2 -->
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('/api/placeholder/400/300');">
+                        <div class="property-badge for-rent">Aluguel</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">R$ 2.800/mês</div>
+                        <h3>Casa em Condomínio</h3>
+                        <div class="property-address">
+                            <i class="fas fa-map-marker-alt"></i> Alphaville, Barueri
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 4 Quartos</span>
+                            <span><i class="fas fa-bath"></i> 3 Banheiros</span>
+                            <span><i class="fas fa-ruler-combined"></i> 200 m²</span>
+                        </div>
+                        <div class="property-link">
+                            <a href="imovel.html?id=2" class="btn btn-outline">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Property Card 3 -->
+                <div class="property-card">
+                    <div class="property-img" style="background-image: url('/api/placeholder/400/300');">
+                        <div class="property-badge for-sale">Venda</div>
+                    </div>
+                    <div class="property-info">
+                        <div class="property-price">R$ 1.200.000</div>
+                        <h3>Casa com Vista Panorâmica</h3>
+                        <div class="property-address">
+                            <i class="fas fa-map-marker-alt"></i> Granja Viana, Cotia
+                        </div>
+                        <div class="property-details">
+                            <span><i class="fas fa-bed"></i> 5 Quartos</span>
+                            <span><i class="fas fa-bath"></i> 4 Banheiros</span>
+                            <span><i class="fas fa-ruler-combined"></i> 350 m²</span>
+                        </div>
+                        <div class="property-link">
+                            <a href="imovel.html?id=3" class="btn btn-outline">Ver Detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px;">
+                <a href="imoveis.html" class="btn btn-primary">Ver Todos os Imóveis</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nossos Serviços</h2>
+                <p>Soluções completas para sua jornada imobiliária</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Compra de Imóveis</h3>
+                    <p>Encontre o imóvel dos seus sonhos com nossa ampla carteira de opções e assessoria especializada.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3>Aluguel</h3>
+                    <p>Alugue com segurança e tranquilidade. Oferecemos contratos transparentes e suporte completo.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Avaliação de Imóveis</h3>
+                    <p>Determine o valor justo do seu imóvel com nossa avaliação profissional e detalhada.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Anuncie seu Imóvel</h3>
+                    <p>Venda ou alugue seu imóvel mais rápido com nossa estratégia de marketing imobiliário.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para encontrar seu próximo lar?</h2>
+            <p>Conte com nossa equipe de corretores especializados para te ajudar em cada etapa do processo.</p>
+            <a href="contato.html" class="btn btn-primary">Fale Conosco</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>Sobre a ImobLar</h3>
+                    <p>Há mais de 15 anos no mercado imobiliário, oferecendo soluções completas para compra, venda e aluguel de imóveis residenciais e comerciais.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="imoveis.html">Imóveis</a></li>
+                        <li><a href="sobre.html">Sobre Nós</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Contato</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - São Paulo</p>
+                    <p><i class="fas fa-phone"></i> (11) 3000-0000</p>
+                    <p><i class="fas fa-envelope"></i> contato@imoblar.com.br</p>
+                    <p><i class="fas fa-clock"></i> Seg - Sex: 9h às 18h</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Receba novidades e lançamentos imobiliários</p>
+                    <form>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu e-mail" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Inscrever-se</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 ImobLar - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+            const mainMenu = document.getElementById('mainMenu');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                mainMenu.classList.toggle('active');
+                
+                // Change icon based on menu state
+                const icon = this.querySelector('i');
+                if (mainMenu.classList.contains('active')) {
+                    icon.classList.remove('fa-bars');
+                    icon.classList.add('fa-times');
+                } else {
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                const isClickInsideMenu = mainMenu.contains(event.target);
+                const isClickOnMenuBtn = mobileMenuBtn.contains(event.target);
+                
+                if (!isClickInsideMenu && !isClickOnMenuBtn && mainMenu.classList.contains('active')) {
+                    mainMenu.classList.remove('active');
+                    const icon = mobileMenuBtn.querySelector('i');
+                    icon.classList.remove('fa-times');
+                    icon.classList.add('fa-bars');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
